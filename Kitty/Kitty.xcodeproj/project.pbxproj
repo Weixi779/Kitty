@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		60FBE58F2E4B7DEE00FA0808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60FBE5782E4B7DED00FA0808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60FBE57F2E4B7DED00FA0808;
+			remoteInfo = Kitty;
+		};
+		60FBE5992E4B7DEE00FA0808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60FBE5782E4B7DED00FA0808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60FBE57F2E4B7DED00FA0808;
+			remoteInfo = Kitty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60FBE5802E4B7DED00FA0808 /* Kitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FBE58E2E4B7DEE00FA0808 /* KittyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FBE5982E4B7DEE00FA0808 /* KittyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		60FBE5822E4B7DED00FA0808 /* Kitty */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Kitty;
+			sourceTree = "<group>";
+		};
+		60FBE5912E4B7DEE00FA0808 /* KittyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KittyTests;
+			sourceTree = "<group>";
+		};
+		60FBE59B2E4B7DEE00FA0808 /* KittyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KittyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60FBE57D2E4B7DED00FA0808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FBE58B2E4B7DEE00FA0808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FBE5952E4B7DEE00FA0808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60FBE5772E4B7DED00FA0808 = {
+			isa = PBXGroup;
+			children = (
+				60FBE5822E4B7DED00FA0808 /* Kitty */,
+				60FBE5912E4B7DEE00FA0808 /* KittyTests */,
+				60FBE59B2E4B7DEE00FA0808 /* KittyUITests */,
+				60FBE5812E4B7DED00FA0808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60FBE5812E4B7DED00FA0808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60FBE5802E4B7DED00FA0808 /* Kitty.app */,
+				60FBE58E2E4B7DEE00FA0808 /* KittyTests.xctest */,
+				60FBE5982E4B7DEE00FA0808 /* KittyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60FBE57F2E4B7DED00FA0808 /* Kitty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FBE5A22E4B7DEE00FA0808 /* Build configuration list for PBXNativeTarget "Kitty" */;
+			buildPhases = (
+				60FBE57C2E4B7DED00FA0808 /* Sources */,
+				60FBE57D2E4B7DED00FA0808 /* Frameworks */,
+				60FBE57E2E4B7DED00FA0808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				60FBE5822E4B7DED00FA0808 /* Kitty */,
+			);
+			name = Kitty;
+			packageProductDependencies = (
+			);
+			productName = Kitty;
+			productReference = 60FBE5802E4B7DED00FA0808 /* Kitty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60FBE58D2E4B7DEE00FA0808 /* KittyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FBE5A52E4B7DEE00FA0808 /* Build configuration list for PBXNativeTarget "KittyTests" */;
+			buildPhases = (
+				60FBE58A2E4B7DEE00FA0808 /* Sources */,
+				60FBE58B2E4B7DEE00FA0808 /* Frameworks */,
+				60FBE58C2E4B7DEE00FA0808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60FBE5902E4B7DEE00FA0808 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				60FBE5912E4B7DEE00FA0808 /* KittyTests */,
+			);
+			name = KittyTests;
+			packageProductDependencies = (
+			);
+			productName = KittyTests;
+			productReference = 60FBE58E2E4B7DEE00FA0808 /* KittyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60FBE5972E4B7DEE00FA0808 /* KittyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FBE5A82E4B7DEE00FA0808 /* Build configuration list for PBXNativeTarget "KittyUITests" */;
+			buildPhases = (
+				60FBE5942E4B7DEE00FA0808 /* Sources */,
+				60FBE5952E4B7DEE00FA0808 /* Frameworks */,
+				60FBE5962E4B7DEE00FA0808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60FBE59A2E4B7DEE00FA0808 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				60FBE59B2E4B7DEE00FA0808 /* KittyUITests */,
+			);
+			name = KittyUITests;
+			packageProductDependencies = (
+			);
+			productName = KittyUITests;
+			productReference = 60FBE5982E4B7DEE00FA0808 /* KittyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60FBE5782E4B7DED00FA0808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					60FBE57F2E4B7DED00FA0808 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					60FBE58D2E4B7DEE00FA0808 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 60FBE57F2E4B7DED00FA0808;
+					};
+					60FBE5972E4B7DEE00FA0808 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 60FBE57F2E4B7DED00FA0808;
+					};
+				};
+			};
+			buildConfigurationList = 60FBE57B2E4B7DED00FA0808 /* Build configuration list for PBXProject "Kitty" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60FBE5772E4B7DED00FA0808;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 60FBE5812E4B7DED00FA0808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60FBE57F2E4B7DED00FA0808 /* Kitty */,
+				60FBE58D2E4B7DEE00FA0808 /* KittyTests */,
+				60FBE5972E4B7DEE00FA0808 /* KittyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60FBE57E2E4B7DED00FA0808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FBE58C2E4B7DEE00FA0808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FBE5962E4B7DEE00FA0808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60FBE57C2E4B7DED00FA0808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FBE58A2E4B7DEE00FA0808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FBE5942E4B7DEE00FA0808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60FBE5902E4B7DEE00FA0808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60FBE57F2E4B7DED00FA0808 /* Kitty */;
+			targetProxy = 60FBE58F2E4B7DEE00FA0808 /* PBXContainerItemProxy */;
+		};
+		60FBE59A2E4B7DEE00FA0808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60FBE57F2E4B7DED00FA0808 /* Kitty */;
+			targetProxy = 60FBE5992E4B7DEE00FA0808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60FBE5A02E4B7DEE00FA0808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 65972SHM9W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60FBE5A12E4B7DEE00FA0808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 65972SHM9W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		60FBE5A32E4B7DEE00FA0808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kitty/Kitty.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65972SHM9W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.public.weixi.Kitty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		60FBE5A42E4B7DEE00FA0808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kitty/Kitty.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65972SHM9W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.public.weixi.Kitty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		60FBE5A62E4B7DEE00FA0808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65972SHM9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.public.weixi.KittyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kitty";
+			};
+			name = Debug;
+		};
+		60FBE5A72E4B7DEE00FA0808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65972SHM9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.public.weixi.KittyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kitty";
+			};
+			name = Release;
+		};
+		60FBE5A92E4B7DEE00FA0808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65972SHM9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.public.weixi.KittyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Kitty;
+			};
+			name = Debug;
+		};
+		60FBE5AA2E4B7DEE00FA0808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65972SHM9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.public.weixi.KittyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Kitty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60FBE57B2E4B7DED00FA0808 /* Build configuration list for PBXProject "Kitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FBE5A02E4B7DEE00FA0808 /* Debug */,
+				60FBE5A12E4B7DEE00FA0808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FBE5A22E4B7DEE00FA0808 /* Build configuration list for PBXNativeTarget "Kitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FBE5A32E4B7DEE00FA0808 /* Debug */,
+				60FBE5A42E4B7DEE00FA0808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FBE5A52E4B7DEE00FA0808 /* Build configuration list for PBXNativeTarget "KittyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FBE5A62E4B7DEE00FA0808 /* Debug */,
+				60FBE5A72E4B7DEE00FA0808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FBE5A82E4B7DEE00FA0808 /* Build configuration list for PBXNativeTarget "KittyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FBE5A92E4B7DEE00FA0808 /* Debug */,
+				60FBE5AA2E4B7DEE00FA0808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60FBE5782E4B7DED00FA0808 /* Project object */;
+}
