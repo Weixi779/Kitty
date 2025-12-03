@@ -9,18 +9,20 @@
 - 可扩展性：新工具按同样目录模板复制；少量跨切片基础能力通过协议抽象（Clipboard/Gateway 等）。
 
 ## 分层与包划分
-- **Domain（Swift Package）**：协议、实体、用例模型，不依赖 Foundation/SwiftUI。示例：`JsonTransformUseCase`、`JsonTransformRequest/Result/Mode`。
-- **Data（Swift Package）**：协议实现，使用 Foundation 或系统 API。示例：`DefaultJsonTransformUseCase`（基于 `JSONSerialization`、字符串处理）。
-- **Presentation（Swift Package）**：TCA Reducer/State/Action，依赖 Domain 协议。通过 TCA Dependencies 注入具体 UseCase。
-- **App（macOS Target）**：SwiftUI 视图 + 入口，持有 `Store` 并将依赖注入到 TCA 环境。平台相关适配器（如 ClipboardService）放这里或 Platform 子目录。
+- **Domain（Swift Package：KittyDomain）**：协议、实体、用例模型，不依赖 Foundation/SwiftUI。示例：`JsonTransformUseCase`、`JsonTransformRequest/Result/Mode`。
+- **Data（Swift Package：KittyData）**：协议实现，使用 Foundation 或系统 API。示例：`DefaultJsonTransformUseCase`（基于 `JSONSerialization`、字符串处理）。
+- **Presentation（Swift Package：KittyPresentation）**：TCA Reducer/State/Action，依赖 Domain 协议。通过 TCA Dependencies 注入具体 UseCase。
+- **App（macOS Target：Kitty）**：SwiftUI 视图 + 入口，持有 `Store` 并将依赖注入到 TCA 环境。平台相关适配器（如 ClipboardService）放这里或 Platform 子目录。现有 Xcode 项目里的 `Kitty` target 直接作为 App 层。
 
 ## 目录建议（示例）
 ```
 Kitty/
-├─ KittyApp/                   # macOS UI target
+├─ Kitty/                      # macOS UI target（现有）
 │  └─ Features/
 │       └─ JsonTool/
 │            └─ JsonToolView.swift
+├─ KittyTests/                 # Unit tests（Data/Presentation/Domain）
+├─ KittyUITests/               # UI tests（SwiftUI/TCA flows）
 ├─ KittyPresentation/          # Swift Package
 │  └─ Features/JsonTool/JsonToolReducer.swift
 ├─ KittyDomain/                # Swift Package

@@ -6,6 +6,10 @@
 xcuserdata/
 .DS_Store
 DerivedData/
+.build/
+.swiftpm/
+**/.build/
+**/.swiftpm/
 
 ## Obj-C/Swift specific
 *.hmap
