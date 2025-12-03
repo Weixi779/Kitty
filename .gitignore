@@ -4,6 +4,8 @@
 
 ## User settings
 xcuserdata/
+.DS_Store
+DerivedData/
 
 ## Obj-C/Swift specific
 *.hmap
@@ -30,6 +32,7 @@ playground.xcworkspace
 # .swiftpm
 
 .build/
+.swiftpm/
 
 # CocoaPods
 #
