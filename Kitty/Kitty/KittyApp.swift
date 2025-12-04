@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct KittyApp: App {
+    private let store = Store(initialState: JsonToolReducer.State()) {
+        JsonToolReducer()
+            .dependency(\.jsonTransformUseCase, DefaultJsonTransformUseCase())
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            JsonToolView(store: store)
         }
     }
 }

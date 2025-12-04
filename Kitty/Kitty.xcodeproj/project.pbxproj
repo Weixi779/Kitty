@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607BE1EC2EE0927800DC8CBD /* KittyData in Frameworks */ = {isa = PBXBuildFile; productRef = 607BE1EB2EE0927800DC8CBD /* KittyData */; };
-		607BE1EF2EE0928400DC8CBD /* KittyDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 607BE1EE2EE0928400DC8CBD /* KittyDomain */; };
-		607BE1F22EE092D200DC8CBD /* KittyPresentation in Frameworks */ = {isa = PBXBuildFile; productRef = 607BE1F12EE092D200DC8CBD /* KittyPresentation */; };
 		607BE2032EE0993300DC8CBD /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 607BE2022EE0993300DC8CBD /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
@@ -59,10 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607BE1EF2EE0928400DC8CBD /* KittyDomain in Frameworks */,
-				607BE1EC2EE0927800DC8CBD /* KittyData in Frameworks */,
 				607BE2032EE0993300DC8CBD /* ComposableArchitecture in Frameworks */,
-				607BE1F22EE092D200DC8CBD /* KittyPresentation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,9 +117,6 @@
 			);
 			name = Kitty;
 			packageProductDependencies = (
-				607BE1EB2EE0927800DC8CBD /* KittyData */,
-				607BE1EE2EE0928400DC8CBD /* KittyDomain */,
-				607BE1F12EE092D200DC8CBD /* KittyPresentation */,
 				607BE2022EE0993300DC8CBD /* ComposableArchitecture */,
 			);
 			productName = Kitty;
@@ -211,9 +202,6 @@
 			mainGroup = 60FBE5772E4B7DED00FA0808;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				607BE1EA2EE0927800DC8CBD /* XCLocalSwiftPackageReference "KittyData" */,
-				607BE1ED2EE0928400DC8CBD /* XCLocalSwiftPackageReference "KittyDomain" */,
-				607BE1F02EE092D200DC8CBD /* XCLocalSwiftPackageReference "KittyPresentation" */,
 				607BE2012EE0993300DC8CBD /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			preferredProjectObjectVersion = 77;
@@ -434,7 +422,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -462,7 +450,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
@@ -479,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.public.weixi.KittyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kitty";
 			};
 			name = Debug;
@@ -497,7 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.public.weixi.KittyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kitty";
 			};
 			name = Release;
@@ -513,7 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.public.weixi.KittyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TEST_TARGET_NAME = Kitty;
 			};
 			name = Debug;
@@ -529,7 +517,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.public.weixi.KittyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TEST_TARGET_NAME = Kitty;
 			};
 			name = Release;
@@ -575,21 +563,6 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		607BE1EA2EE0927800DC8CBD /* XCLocalSwiftPackageReference "KittyData" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = KittyData;
-		};
-		607BE1ED2EE0928400DC8CBD /* XCLocalSwiftPackageReference "KittyDomain" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = KittyDomain;
-		};
-		607BE1F02EE092D200DC8CBD /* XCLocalSwiftPackageReference "KittyPresentation" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = KittyPresentation;
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCRemoteSwiftPackageReference section */
 		607BE2012EE0993300DC8CBD /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -602,18 +575,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		607BE1EB2EE0927800DC8CBD /* KittyData */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = KittyData;
-		};
-		607BE1EE2EE0928400DC8CBD /* KittyDomain */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = KittyDomain;
-		};
-		607BE1F12EE092D200DC8CBD /* KittyPresentation */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = KittyPresentation;
-		};
 		607BE2022EE0993300DC8CBD /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 607BE2012EE0993300DC8CBD /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
